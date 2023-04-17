@@ -17,6 +17,7 @@
 .rodape__container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap; /*quebra as colunas do rodapé encaixando responsivamente*/
 }
 
 @media(min-width: 834px) {
