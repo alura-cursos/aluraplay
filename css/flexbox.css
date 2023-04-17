@@ -12,21 +12,64 @@
     display: none;
 }
 
+/* SUPERIOR SEÇÃO */
+
+.superior__secao__container{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: scroll; /*cria barra de rolagem*/
+    gap: 15px; /*espaçcamento entre itens sem margin-right */
+
+}
+
+/* .superior__item {
+    margin-right: 15px;
+}
+
+.superior__item:last-child {
+    margin-right: 0px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* RODAPÉ */
 .rodape__container {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; /*quebra as colunas do rodapé encaixando responsivamente*/
+    /* flex-direction: column;
+    flex-wrap: wrap; quebra as colunas do rodapé encaixando responsivamente */
+    flex-flow: column wrap; /*exerce a msm funionalidade*/
 
 }
 
 @media(min-width: 834px) {
-
+    
+    /* CABEÇALHO */
     .cabecalho__pesquisar__item {
         display: block; /* responsividade na barra de pesquisa */
     }
+    
 
+    /* RODAPÉ */
     .rodape__container {
         justify-content: space-between ; /*dando espaço entre as colunas*/
     }
