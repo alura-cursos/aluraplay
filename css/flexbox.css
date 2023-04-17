@@ -12,6 +12,13 @@
     display: none;
 }
 
+
+/* RODAPÉ */
+.rodape__container {
+    display: flex;
+    flex-direction: column;
+}
+
 @media(min-width: 834px) {
 
     .cabecalho__pesquisar__item {
