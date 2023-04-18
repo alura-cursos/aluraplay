@@ -8,13 +8,21 @@
     top:0;
 }
 
-.cabecalho__pesquisar__item{
+.cabecalho__pesquisar__item {
     display: none;
 }
 
-/* SUPERIOR SEÇÃO */
+.menu__container {
+    position: fixed;
+    bottom: 0%;
+    height: 74px;
+    width: 100%;
 
-.superior__secao__container{
+}
+
+/* SEÇÃO SUPERIOR */
+
+.superior__secao__container {
     display: flex;
     align-items: center;
     white-space: nowrap;
