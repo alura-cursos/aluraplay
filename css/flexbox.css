@@ -32,6 +32,12 @@
     align-self: center; /*alinha todos os itens da lista ao centro*/
 }
 
+.menu__itens {
+    display: flex;
+    flex-direction: column; /*organizando os itens alinhando com o texto no menu inferior*/
+    gap: 5px;
+}
+
 .menu__lista:nth-child(2), /*esconde os elementos filhos <li> sem precisar mexer no html*/
 .menu__lista:nth-child(3),
 .menu__lista:nth-child(4) {
