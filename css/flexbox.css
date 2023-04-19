@@ -24,7 +24,12 @@
 
 .menu__lista {
     display:flex;
+    justify-content: space-around;
+    height: 100%;
+}
 
+.menu__lista li {
+    align-self: center; /*alinha todos os itens da lista ao centro*/
 }
 
 .menu__lista:nth-child(2), /*esconde os elementos filhos <li> sem precisar mexer no html*/
